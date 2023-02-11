@@ -1,0 +1,58 @@
+body {
+  background: #eaf8ff;
+  background-image: url("../images/result_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.character {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+.result {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.result .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  min-height: 70px;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 30px 10px 30px;
+  border-radius: 20px;
+}
+.result h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+.result .jobs {
+  display: flex;
+  gap: 10px;
+  height: 200px;
+}
+.result .job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: #fff;
+  background-image: url("../images/result_star.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  border: 1px solid #ffe603;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
